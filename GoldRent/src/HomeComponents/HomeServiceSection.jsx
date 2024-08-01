@@ -2,9 +2,12 @@ import React from "react";
 
 const ServiceSection = () => {
   return (
+     
+
+ 
     <div className="p-6 lg:p-12 bg-gray-50 min-h-screen">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl font-extrabold text-center text-gray-800 mb-12">
+        <h1 className="text-4xl font-extrabold text-center text-gray-800 mb-12 mt-3">
           Zakres naszych działań
         </h1>
 
@@ -91,7 +94,7 @@ const ServiceSection = () => {
           </section>
         </div>
 
-        <section className="bg-white text-center font-bold rounded-lg p-8 mt-12">
+        <section className=" text-center font-bold rounded-lg p-8 mt-12">
           <p className="text-xl leading-relaxed text-gray-700">
             GoldRent oferuje kompleksowe zarządzanie nieruchomościami i wynajem,
             zapewniając spokój właścicielom oraz komfort najemcom. Dzięki
@@ -102,6 +105,7 @@ const ServiceSection = () => {
         </section>
       </div>
     </div>
+    
   );
 };
 

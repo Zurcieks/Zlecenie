@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
     <div className="w-full">
-      <header className="flex justify-between items-center text-black py-4 px-8 md:px-32 bg-white shadow-md relative">
+      <header className="flex justify-between items-center text-black py-4 px-8 md:px-32 bg-gray-50 shadow-md">
         <a href="/">
           <img
             src="/logo.png"
