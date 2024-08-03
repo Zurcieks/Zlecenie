@@ -2,7 +2,7 @@ import React from "react";
 
 const HomePageHero = () => {
   return (
-    <div className="relative w-full h-[550px] flex flex-col justify-center items-center text-white">
+    <div className="relative w-full h-[650px] flex flex-col justify-center items-center text-white">
       <div
         className="absolute inset-0 bg-black z-10"
         style={{

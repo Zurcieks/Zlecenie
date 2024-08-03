@@ -1,12 +1,12 @@
 import React from 'react'
 import HomePageHero from '../HomeComponents/HomePageHero'
-import ServiceSection from '../HomeComponents/HomeServiceSection'
+import HomeServiceSection from '../HomeComponents/HomeServiceSection'
  
 const Home = () => {
   return (
     <div>
         <HomePageHero/>
-        <ServiceSection/> 
+        <HomeServiceSection/> 
     </div>
    
     
