@@ -55,7 +55,7 @@ const Header = () => {
             Rezerwacje
           </a>
           <a
-            href="#"
+            href="/Contact"
             className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all"
           >
             Kontakt
@@ -106,7 +106,7 @@ const Header = () => {
               <a href="#">Rezerwacje</a>
             </li>
             <li className="w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">
-              <a href="#">Kontakt</a>
+              <a href="/Contact">Kontakt</a>
             </li>
           </ul>
         </div>

@@ -12,12 +12,12 @@ const HomePageHero = () => {
 
           backgroundPosition: "center",
         }}
-      ></div>
-
-      <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center z-20 text-white">
+      >
+      </div>
+      <h1 className="text-4xl md:text-6xl  font-bold -mt-44 md:mb-4 md:mt-12 text-center z-20 text-white">
         O nas
       </h1>
-      <p className="text-lg md:text-xl mb-8 text-center max-w-2xl z-20 text-white">
+      <p className="text-md p-1 md:text-xl mt-3 md:mb-8 text-center  max-w-2xl z-20 text-white">
         GoldRent to lider w zarządzaniu nieruchomościami, oferujący kompleksową
         obsługę właścicieli i najemców. Naszą misją jest dostarczanie najwyższej
         jakości usług, dostosowanych do indywidualnych potrzeb klientów i
@@ -26,8 +26,8 @@ const HomePageHero = () => {
         na każdym etapie współpracy.
       </p>
       <a
-        href="#kontakt"
-        className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg z-20 text-lg font-semibold"
+        href="/Contact"
+        className="px-6 py-3 bg-blue-500 mt-4 hover:bg-blue-600 text-white rounded-lg z-20 text-lg font-semibold"
       >
         Skontaktuj się z nami
       </a>
