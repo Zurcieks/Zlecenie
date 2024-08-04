@@ -30,22 +30,19 @@ const Services = () => {
           title="Zarządzanie nieruchomościami"
           image={obrazek4}
         >
-          Oferujemy pełne usługi związane z poszukiwaniem i weryfikacją
-          najemców, zarządzaniem umowami oraz obsługą najemców. Aktywnie
-          poszukujemy najemców, dokładnie sprawdzamy ich wiarygodność i
-          przeprowadzamy proces selekcji. Zajmujemy się przygotowywaniem,
-          negocjowaniem i nadzorowaniem umów najmu oraz dbamy o ich przedłużenie
-          lub rozwiązanie. Zapewniamy codzienne wsparcie najemców, rozwiązujemy
-          problemy i szybko reagujemy na zgłoszenia awarii oraz inne kwestie.
+          Oferujemy kompleksowe usługi w zakresie poszukiwania i weryfikacji
+          najemców, zarządzania umowami oraz ich obsługi. Znajdujemy najemców,
+          sprawdzamy ich wiarygodność, przeprowadzamy selekcję, a także
+          przygotowujemy, negocjujemy i nadzorujemy umowy najmu. Zapewniamy
+          codzienne wsparcie, szybko reagując na zgłoszenia awarii i inne
+          problemy.
         </ServiceSectionReverse>
         <ServiceSection title="Najem długoterminowy" image={obrazek5}>
-          Świadczymy pełną obsługę nieruchomości, obejmującą konserwację i
-          modernizację, administrację oraz finanse i rozliczenia. Dbamy o
-          regularne przeglądy techniczne, naprawy oraz modernizacje, aby
-          utrzymać nieruchomości w najlepszym stanie. Zarządzamy dokumentacją,
-          prowadzimy korespondencję i nadzorujemy operacje administracyjne.
-          Oferujemy pełną księgowość, w tym rozliczenia z dostawcami usług i
-          monitorowanie płatności czynszowych.
+          Świadczymy kompleksową obsługę nieruchomości, obejmującą konserwację,
+          modernizację, administrację oraz finanse. Regularnie przeprowadzamy
+          przeglądy techniczne, naprawy i modernizacje. Zarządzamy dokumentacją,
+          korespondencją i administracją, a także prowadzimy pełną księgowość, w
+          tym rozliczenia z dostawcami i monitorowanie płatności czynszowych.
         </ServiceSection>
         <ServiceSectionReverse title="Najem krótkoterminowy" image={obrazek6}>
           Zarządzamy rezerwacjami i aktywnie promujemy nieruchomości, aby
@@ -55,12 +52,11 @@ const Services = () => {
           nieruchomości, aby spełniać oczekiwania gości.
         </ServiceSectionReverse>
         <ServiceSection title="Wynajem pojedynczych pokoi" image={obrazek7}>
-          Promujemy oferty wynajmu pojedynczych pokoi, weryfikujemy najemców i
-          dbamy o odpowiednią atmosferę wśród lokatorów. Organizujemy i
-          nadzorujemy przestrzenie wspólne, ustalamy zasady współżycia oraz
-          dbamy o porządek i bezpieczeństwo. Prowadzimy umowy najmu,
-          monitorujemy płatności i rozwiązujemy wszelkie problemy zgłaszane
-          przez najemców.
+          Oferujemy wynajem pojedynczych pokoi, weryfikujemy najemców i dbamy o
+          dobrą atmosferę wśród lokatorów. Nadzorujemy przestrzenie wspólne,
+          ustalamy zasady współżycia, zapewniamy porządek i bezpieczeństwo.
+          Prowadzimy umowy najmu, monitorujemy płatności i rozwiązujemy problemy
+          zgłaszane przez najemców.
         </ServiceSection>
       </div>
     </div>
