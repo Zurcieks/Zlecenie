@@ -2,20 +2,45 @@ import React from "react";
 
 const ServiceSection = ({ title, children, image }) => {
   return (
- 
-    <div className="flex flex-col md:justify-between items-cnter h-screen mx-6 md:flex-row md:space-x-12 md:max-h-[300px] overflow-hidden max-w-800px lg:space-x-24 xl:max-w-[1200px]">
-      <div className="space-y-6 order-last md:order-first md:min-w-[450px] lg:max-w-[450px] xl:min-w-[600px]">
-        <h1 className="text-4xl font-bold">{title}</h1>
-        <p className="md:max-w-[600px] font-sans">{children}</p>
-      </div>
-      <div className="flex items-start order-first w-full md:order-last mb-12 lg:m-0 lg:p-0 md:mb-0 ">
-        <img
-          src={image}
-          alt="Client Image"
-          className="h-full w-full object-contain xl:object-cover lg:max-h-[300px] lg:max-w-[450px] xl:max-w-[600px]"
-        />
-      </div>
-    </div>
+  //   <div className="grid grid-rows-2 gap-y-12 md:grid-cols-2 px-6 md:grid-rows-1 xl:mx-12 2xl:mx-24 xl:max-h-[400px]">
+  //     <div className="w-ful md:order-last xl:max-h-[400px]">
+  //       <img
+  //         src={image}
+  //         alt="Client Image"
+  //         className="h-full w-full bg-cover"
+  //       />
+  //     </div>
+  //     <div className="flex flex-col md:order-first text-center md:text-left md:mr-6 md:my-6 space-y-6 xl:justify-center xl:my-0 xl:-mt-12">
+  //       <h1 className="text-4xl font-headline">{title}</h1>
+  //       <p className="font-text">{children}</p>
+  //     </div>
+//   //   </div>
+//   <div className="grid grid-rows-2 gap-y-12 md:grid-cols-2 px-6 md:px-10 md:grid-rows-1 xl:mx-12 2xl:mx-24 xl:max-h-[400px]">
+//   <div className="w-full flex justify-center items-center md:order-last xl:max-h-[400px]">
+//     <img
+//       src={image}
+//       alt="Client Image"
+//       className="w-full md:max-w-sm lg:max-w-none object-contain"
+//     />
+//   </div>
+//   <div className="flex flex-col md:order-first text-center md:text-left md:mr-6 md:my-6 space-y-6 xl:justify-center xl:my-0 xl:-mt-12">
+//     <h1 className="text-4xl font-headline">{title}</h1>
+//     <p className="font-text">{children}</p>
+//   </div>
+// </div>
+<div className="grid grid-rows-2 gap-y-12 md:grid-cols-2 px-6 md:px-10 md:grid-rows-1 xl:mx-12 2xl:mx-24 xl:max-h-[400px] md:max-w-[1200px]">
+  <div className="flex justify-center items-center md:order-last xl:max-h-[400px] overflow-hidden">
+    <img
+      src={image}
+      alt="Client Image"
+      className="w-full max-w-full max-h-full object-contain lg:object-cover"
+    />
+  </div>
+  <div className="flex flex-col md:order-first text-center md:text-left md:mr-6 md:my-6 space-y-6 xl:justify-center xl:my-0 xl:-mt-12">
+    <h1 className="text-4xl font-headline">{title}</h1>
+    <p className="font-text">{children}</p>
+  </div>
+</div>
 
   );
 };
