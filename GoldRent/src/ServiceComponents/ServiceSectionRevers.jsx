@@ -11,8 +11,8 @@ const ServiceSectionReverse = ({ title, children, image }) => {
         />
       </div>
       <div className="space-y-6 md:min-w-[450px] lg:max-w-[450px] xl:min-w-[600px]">
-        <h1 className="text-4xl">{title}</h1>
-        <p className="md:max-w-[600px]">{children}</p>
+        <h1 className="text-4xl font-bold">{title}</h1>
+        <p className="md:max-w-[600px] font-sans ">{children}</p>
       </div>
     </div>
   );
