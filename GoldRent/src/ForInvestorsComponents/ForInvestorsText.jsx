@@ -28,7 +28,7 @@ const ForInvestorsText = () => {
           <div className="bg-white shadow-lg rounded-lg p-6">
             <FaBuilding className="mx-auto size-8" />
             <h3 className="mt-6 text-xl font-bold text-gray-900">
-              Wyszukiwanie okazji inwestycyjnych:
+              Wyszukiwanie okazji inwestycyjnych
             </h3>
             <p className="mt-4 text-gray-500">
               Monitorowanie rynku nieruchomości w celu identyfikacji najbardziej

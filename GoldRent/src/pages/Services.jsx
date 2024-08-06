@@ -54,7 +54,7 @@ const Services = () => {
         <ServiceSection title="Wynajem pojedynczych pokoi" image={obrazek7}>
           Oferujemy wynajem pojedynczych pokoi, weryfikujemy najemców i dbamy o
           dobrą atmosferę wśród lokatorów. Nadzorujemy przestrzenie wspólne,
-          ustalamy zasady współżycia, zapewniamy porządek i bezpieczeństwo.
+          ustalamy zasady współnego życia, zapewniamy porządek i bezpieczeństwo.
           Prowadzimy umowy najmu, monitorujemy płatności i rozwiązujemy problemy
           zgłaszane przez najemców.
         </ServiceSection>
