@@ -2,12 +2,13 @@ import React from "react";
 import { FaBuilding } from "react-icons/fa";
 import { FaHandshake } from "react-icons/fa";
 import { RxHome } from "react-icons/rx";
+import ForInvestorsTile from "./ForInvestorsTile";
 
 const ForInvestorsText = () => {
   return (
     <div id="benefits-section" className="bg-gray-50 py-12">
-      <div  className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
-      <h2 className="text-3xl font-extrabold text-gray-900">
+      <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 text-center">
+        <h2 className="text-3xl font-extrabold text-gray-900">
           Korzyści dla inwestorów
         </h2>
         <p className="mt-4 text-lg text-gray-500">
@@ -24,46 +25,28 @@ const ForInvestorsText = () => {
           podejściu, pomagamy inwestorom osiągać ich cele finansowe i
           maksymalizować zyski z posiadanych nieruchomości
         </p>
-        <div className=" grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <FaBuilding className="mx-auto size-8" />
-            <h3 className="mt-6 text-xl font-bold text-gray-900">
-              Wyszukiwanie okazji inwestycyjnych
-            </h3>
-            <p className="mt-4 text-gray-500">
-              Monitorowanie rynku nieruchomości w celu identyfikacji najbardziej
-              opłacalnych inwestycji, z uwzględnieniem lokalizacji, trendów
-              rynkowych oraz potencjalnego zwrotu z inwestycji, wyszukiwanie
-              nieruchomości o wysokim potencjale inwestycyjnym na rynku
-              pierwotnym i wtórnym, a także oferowanie kompleksowych analiz
-              finansowych i doradztwa w zakresie wyboru najkorzystniejszych
-              opcji inwestycyjnych.
-            </p>
-          </div>
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <FaHandshake className="mx-auto size-8" />
-            <h3 className="mt-6 text-xl font-bold text-gray-900">
-              Nadzór procesu budowlano-inwestycyjnego
-            </h3>
-            <p className="mt-4 text-gray-500">
-              Regularne przeglądy techniczne, naprawy oraz modernizacje, aby
-              nieruchomości były zawsze w najlepszym stanie i generowały
-              maksymalne zyski.
-            </p>
-          </div>
-          <div className="bg-white shadow-lg rounded-lg p-6">
-          <RxHome className="mx-auto size-8" />
-            <h3 className="mt-6 text-xl font-bold text-gray-900">
-              Homestaging
-            </h3>
-            <p className="mt-4 text-gray-500">
-              Przygotowanie nieruchomości do sprzedaży poprzez modernizację i
-              staging w celu zwiększenia jej wartości rynkowej, aktywna promocja
-              nieruchomości z profesjonalnymi materiałami marketingowymi oraz
-              organizacja dni otwartych, a także prowadzenie negocjacji,
-              przygotowanie dokumentacji i finalizacja transakcji sprzedaży.
-            </p>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 lg:mt-16">
+          <ForInvestorsTile Icon={FaBuilding} title="Wyszukiwanie okazji inwestycyjnych">
+            Monitorowanie rynku nieruchomości w celu identyfikacji najbardziej
+            opłacalnych inwestycji, z uwzględnieniem lokalizacji, trendów
+            rynkowych oraz potencjalnego zwrotu z inwestycji, wyszukiwanie
+            nieruchomości o wysokim potencjale inwestycyjnym na rynku pierwotnym
+            i wtórnym, a także oferowanie kompleksowych analiz finansowych i
+            doradztwa w zakresie wyboru najkorzystniejszych opcji
+            inwestycyjnych.
+          </ForInvestorsTile>
+          <ForInvestorsTile Icon={FaHandshake} title="Nadzór procesu budowlano-inwestycyjnego">
+            Regularne przeglądy techniczne, naprawy oraz modernizacje, aby
+            nieruchomości były zawsze w najlepszym stanie i generowały
+            maksymalne zyski.
+          </ForInvestorsTile>
+          <ForInvestorsTile Icon={RxHome} title="Moestaging">
+            Przygotowanie nieruchomości do sprzedaży poprzez modernizację i
+            staging w celu zwiększenia jej wartości rynkowej, aktywna promocja
+            nieruchomości z profesjonalnymi materiałami marketingowymi oraz
+            organizacja dni otwartych, a także prowadzenie negocjacji,
+            przygotowanie dokumentacji i finalizacja transakcji sprzedaży.
+          </ForInvestorsTile>
         </div>
       </div>
     </div>
