@@ -2,6 +2,8 @@ import React from "react";
 import { FaArrowDown } from "react-icons/fa";
 
 const ForInvestorsHero = ({ onArrowClick }) => {
+
+
   return (
     <div className="relative w-full h-[650px] flex flex-col justify-center items-center text-white">
       <div

@@ -40,7 +40,7 @@ const ForInvestorsText = () => {
             nieruchomości były zawsze w najlepszym stanie i generowały
             maksymalne zyski.
           </ForInvestorsTile>
-          <ForInvestorsTile Icon={RxHome} title="Moestaging">
+          <ForInvestorsTile Icon={RxHome} title="Homestaging">
             Przygotowanie nieruchomości do sprzedaży poprzez modernizację i
             staging w celu zwiększenia jej wartości rynkowej, aktywna promocja
             nieruchomości z profesjonalnymi materiałami marketingowymi oraz
