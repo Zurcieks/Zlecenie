@@ -6,44 +6,44 @@ const Footer = () => {
       <div className="container mx-auto py-10 text-center md:text-left">
         <div className="flex flex-wrap justify-center md:justify-between">
           <div className="mb-6 w-full md:w-auto">
-            <h6 className="mb-4 font-semibold uppercase">Usługi</h6>
+            <h6 href="/Services" className="mb-4 font-semibold uppercase cursor-pointer">Usługi</h6>
             <p className="mb-4">
-              <a className="text-neutral-200 cursor-pointer">Zarządzanie nieruchomościami</a>
+              <a href="/Services" className="text-neutral-200 cursor-pointer">Zarządzanie nieruchomościami</a>
+            </p>
+            <p classNa me="mb-4">
+              <a href="/Services" className="text-neutral-200 cursor-pointer">Najem długoterminowy</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-200 cursor-pointer">Najem długoterminowy</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-200 cursor-pointer">Najem krótkoterminowy</a>
+              <a href="/Services"className="text-neutral-200 cursor-pointer">Najem krótkoterminowy</a>
             </p>
             <p>
-              <a className="text-neutral-200 cursor-pointer">Wynajem pojedyńczych pokoi</a>
+              <a href="/Services" className="text-neutral-200 cursor-pointer">Wynajem pojedyńczych pokoi</a>
             </p>
           </div>
 
           <div className="mb-6 w-full md:w-auto">
             <h6 className="mb-4 font-semibold uppercase">Dla inwestorów</h6>
             <p className="mb-4">
-              <a className="text-neutral-200 cursor-pointer">Wyszukiwanie ofert inwestycyjnych</a>
+              <a href="/Investors" className="text-neutral-200 cursor-pointer">Wyszukiwanie ofert inwestycyjnych</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-200 cursor-pointer"> Nadzór procesu budowlano-inwestycyjnego</a>
+              <a href="/Investors" className="text-neutral-200 cursor-pointer"> Nadzór procesu budowlano-inwestycyjnego</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-200 cursor-pointer">Homestaging</a>
+              <a href="/Investors" className="text-neutral-200 cursor-pointer">Homestaging</a>
             </p>
           </div>
 
           <div className="mb-6 w-full md:w-auto">
             <h6 className="mb-4 font-semibold uppercase">Dla właścicieli</h6>
             <p className="mb-4">
-              <a className="text-neutral-200 cursor-pointer">Najem długoterminowy</a>
+              <a href="/Owner"className="text-neutral-200 cursor-pointer">Najem długoterminowy</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-200 cursor-pointer">Najem krótkoterminowy</a>
+              <a href="/Owner" className="text-neutral-200 cursor-pointer">Najem krótkoterminowy</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-200 cursor-pointer">Najem nieruchomości komercyjnych</a>
+              <a href="/Owner" className="text-neutral-200 cursor-pointer">Najem nieruchomości komercyjnych</a>
             </p>
           </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
                 <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
                 <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
               </svg>
-              New York, NY 10012, US
+              Mielec, 39-300
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <svg
@@ -86,7 +86,7 @@ const Footer = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              + 01 234 567 88
+              +48 234 234 234
             </p>
           </div>
         </div>

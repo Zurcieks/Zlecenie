@@ -11,19 +11,14 @@ import ServiceSectionReverse from "../ServiceComponents/ServiceSectionRevers.jsx
 
 
 const Services = () => {
-  const handleArrowClick = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+
   return (
     <div>
       <Helmet>
         <title>Usługi</title>
       </Helmet>
 
-      <ServiceHero onArrowClick={handleArrowClick}/>
+      <ServiceHero/>
       <div className="flex flex-col justify-center items-center my-24 md:space-y-0">
         <ServiceSection id={1} title="Opis klienta" image={obrazek3}>
           Nasi klienci, zarówno indywidualni właściciele nieruchomości, jak i

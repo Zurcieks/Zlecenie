@@ -24,13 +24,7 @@ const ServiceHero = ({onArrowClick}) => {
         </h1>
       </div>
     
-      <div className="flex gap-16 md:text-7xl font-bold mt-48  z-20" >
-        <PiPersonArmsSpreadFill  onClick={() => onArrowClick(1)}/>
-        <TbBuildingEstate onClick={() => onArrowClick(2)}/>
-        <FaClock onClick={() => onArrowClick(3)}/>
-        <CgSandClock onClick={() => onArrowClick(4)}/>
-        <MdMeetingRoom onClick={() => onArrowClick(5)}/>
-      </div>
+
 
 
 

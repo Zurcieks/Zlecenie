@@ -7,6 +7,8 @@ import Contact from './pages/Contact';
 import './index.css'
 import Investors from './pages/Investors';
 import Developers from './pages/Developers';
+import Owner from './pages/Owner';
+import Reservations from './pages/Reservations';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,8 @@ const router = createBrowserRouter([
       { path: "contact", element: <Contact /> },
       { path: "investors", element: <Investors /> },
       { path: "developers", element: <Developers /> },
+      { path: "owner", element: <Owner /> },
+      { path: "reservations", element: <Reservations /> },
     ]
   }
 ]);

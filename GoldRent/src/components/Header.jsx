@@ -32,7 +32,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="/Owner"
               className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all"
             >
               Dla właścicieli
@@ -97,7 +97,7 @@ const Header = () => {
               <a href="/Investors">Dla inwestorów</a>
             </li>
             <li className="w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">
-              <a href="#">Dla właścicieli</a>
+              <a href="/Owner">Dla właścicieli</a>
             </li>
             <li className="w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">
               <a href="/Developers">Dla deweloperów</a>

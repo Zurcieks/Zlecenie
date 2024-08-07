@@ -5,7 +5,7 @@ const ForInvestorsTile = ({ Icon, title, children }) => {
     <div className="bg-white shadow-lg rounded-lg p-6">
       <Icon className="mx-auto size-8" />
       <h3 className="mt-6 text-xl font-bold text-gray-900">{title}</h3>
-      <p className="mt-4 text-gray-500">{children}</p>
+      <p className="mt-4 text-gray-500 ">{children}</p>
     </div>
   );
 };
