@@ -20,8 +20,27 @@ const Contact = () => {
     },
   });
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = async (data) => {
+    try {
+      const response = await fetch('http://localhost:5000/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+  
+      const result = await response.json();
+      if (response.ok) {
+        alert('Email sent successfully');
+      } else {
+        console.error("Backend error:", result);
+        alert('Error sending email');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Error sending email');
+    }
   };
 
   return (
@@ -29,9 +48,7 @@ const Contact = () => {
       className="relative bg-cover bg-center z-0 h-screen"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(/bg2.jpg)`,
-
         backgroundSize: "cover",
-
         backgroundPosition: "center",
       }}
     >

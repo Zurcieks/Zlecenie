@@ -10,7 +10,7 @@ const Footer = () => {
             <p className="mb-4">
               <a href="/Services" className="text-neutral-200 cursor-pointer">Zarządzanie nieruchomościami</a>
             </p>
-            <p classNa me="mb-4">
+            <p className="mb-4">
               <a href="/Services" className="text-neutral-200 cursor-pointer">Najem długoterminowy</a>
             </p>
             <p className="mb-4">
