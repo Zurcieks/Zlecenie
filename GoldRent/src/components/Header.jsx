@@ -49,7 +49,7 @@ const Header = () => {
         </ul>
         <div className="hidden md:flex items-center justify-center gap-6 font-semibold text-base">
           <a
-            href="#"
+            href="/Reservations"
             className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all"
           >
             Rezerwacje
@@ -103,7 +103,7 @@ const Header = () => {
               <a href="/Developers">Dla deweloperów</a>
             </li>
             <li className="w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">
-              <a href="#">Rezerwacje</a>
+              <a href="/Reservations">Rezerwacje</a>
             </li>
             <li className="w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">
               <a href="/Contact">Kontakt</a>

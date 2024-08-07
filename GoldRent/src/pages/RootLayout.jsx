@@ -7,14 +7,16 @@ import Footer from '../components/Footer';
 const RootLayout = () => {
   return (
     <HelmetProvider>
-      <Helmet>
-        <title>Strona główna</title>
-      </Helmet>
-      <Header />
-      <main>
-        <Outlet />  
-      </main>
-      <Footer className="mt-auto"/>
+      <div className="flex flex-col min-h-screen">
+        <Helmet>
+          <title>Strona główna</title>
+        </Helmet>
+        <Header />
+        <main className="flex-grow">
+          <Outlet />
+        </main>
+        <Footer />
+      </div>
     </HelmetProvider>
   );
 };

@@ -29,23 +29,23 @@ const Contact = () => {
         },
         body: JSON.stringify(data),
       });
-  
+
       const result = await response.json();
       if (response.ok) {
-        alert('Email sent successfully');
+        alert('Email wysłany pomyślnie');
       } else {
-        console.error("Backend error:", result);
-        alert('Error sending email');
+        console.error("Błąd backendu:", result);
+        alert('Błąd podczas wysyłania emaila');
       }
     } catch (error) {
-      console.error('Error:', error);
-      alert('Error sending email');
+      console.error('Błąd:', error);
+      alert('Błąd podczas wysyłania emaila');
     }
   };
 
   return (
     <div
-      className="relative bg-cover bg-center z-0 h-screen"
+      className="relative bg-cover bg-center z-0 min-h-screen pb-32"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(/bg2.jpg)`,
         backgroundSize: "cover",
@@ -55,14 +55,14 @@ const Contact = () => {
       <Helmet>
         <title>Kontakt</title>
       </Helmet>
-      <div className="relative z-10 xl:container mx-auto mb-32">
-        <div className="flex justify-center" style={{ height: "250px" }}>
-          <h1 className="text-4xl sm:text-4xl md:m-auto md:-mt-2 font-bold font-sans text-white pt-12">
+      <div className="relative z-10 xl:container mx-auto pt-10">
+        <div className="flex justify-center mb-12">
+          <h1 className="text-4xl sm:text-4xl font-bold font-sans text-white">
             Skontaktuj się z nami
           </h1>
         </div>
-        <div className="px-4 sm:w-2/3 lg:w-1/2 mx-auto ">
-          <div className="rounded-lg shadow-lg bg-white -mt-24 py-10 md:py-12 px-4 md:px-6">
+        <div className="px-4 sm:w-2/3 lg:w-1/2 mx-auto  mb-24">
+          <div className="rounded-lg shadow-lg bg-white py-10 px-4 md:px-6">
             <div className="grid grid-cols-2 gap-x-6 mb-12 mx-auto">
               <IconInfo icon={<IconEmail />} text="contact@us" />
               <IconInfo icon={<IconPhone />} text="574232324" />
@@ -133,7 +133,7 @@ const Contact = () => {
                 />
                 <button
                   type="submit"
-                  className=" bg-blue-500 text-white py-2 px-4 rounded mt-4 mx-auto block w-full hover:bg-blue-700 "
+                  className="bg-blue-500 text-white py-2 px-4 rounded mt-4 w-full hover:bg-blue-700"
                 >
                   Wyślij
                 </button>

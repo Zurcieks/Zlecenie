@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-customGray text-neutral-200 lg:text-left">
+    <footer className=" bg-customGray text-neutral-200 lg:text-left w-full">
       <div className="container mx-auto py-10 text-center md:text-left">
         <div className="flex flex-wrap justify-center md:justify-between">
           <div className="mb-6 w-full md:w-auto">
-            <h6 href="/Services" className="mb-4 font-semibold uppercase cursor-pointer">Usługi</h6>
+            <h6 className="mb-4 font-semibold uppercase cursor-pointer">Usługi</h6>
             <p className="mb-4">
               <a href="/Services" className="text-neutral-200 cursor-pointer">Zarządzanie nieruchomościami</a>
             </p>
@@ -14,10 +14,10 @@ const Footer = () => {
               <a href="/Services" className="text-neutral-200 cursor-pointer">Najem długoterminowy</a>
             </p>
             <p className="mb-4">
-              <a href="/Services"className="text-neutral-200 cursor-pointer">Najem krótkoterminowy</a>
+              <a href="/Services" className="text-neutral-200 cursor-pointer">Najem krótkoterminowy</a>
             </p>
             <p>
-              <a href="/Services" className="text-neutral-200 cursor-pointer">Wynajem pojedyńczych pokoi</a>
+              <a href="/Services" className="text-neutral-200 cursor-pointer">Wynajem pojedynczych pokoi</a>
             </p>
           </div>
 
@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="mb-6 w-full md:w-auto">
             <h6 className="mb-4 font-semibold uppercase">Dla właścicieli</h6>
             <p className="mb-4">
-              <a href="/Owner"className="text-neutral-200 cursor-pointer">Najem długoterminowy</a>
+              <a href="/Owner" className="text-neutral-200 cursor-pointer">Najem długoterminowy</a>
             </p>
             <p className="mb-4">
               <a href="/Owner" className="text-neutral-200 cursor-pointer">Najem krótkoterminowy</a>

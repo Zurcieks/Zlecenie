@@ -1,10 +1,10 @@
 import React from 'react';
+import ReservationService from '../ReservationsComponents/ReservationService';
 
 const Reservations = () => {
   return (
     <div>
-      <h1>Rezerwacje</h1>
-      <p>Strona w trakcie realizacji.</p>
+     <ReservationService/>
     </div>
   );
 }
