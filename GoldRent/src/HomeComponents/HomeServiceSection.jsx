@@ -93,7 +93,7 @@ const HomeServiceSection = () => {
 
         <section className="text-center font-bold rounded-lg p-8 mt-12">
           <p className="text-xl leading-relaxed text-gray-700">
-            GoldRent oferuje kompleksowe zarządzanie nieruchomościami i wynajem,
+          GoldRealEstate oferuje kompleksowe zarządzanie nieruchomościami i wynajem,
             zapewniając spokój właścicielom oraz komfort najemcom. Dzięki
             naszemu doświadczeniu i profesjonalizmowi, gwarantujemy
             bezpieczeństwo i wsparcie. Dodatkowo, oferujemy opcję ubezpieczenia

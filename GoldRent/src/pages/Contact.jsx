@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import IconInfo from "../components/IconInfo";
 import IconEmail from "../icons/iconEmail";
 import IconPhone from "../icons/iconPhone";
 import FormElements from "../components/FormElements";
 import { Helmet } from "react-helmet-async";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
   const {
@@ -20,14 +21,21 @@ const Contact = () => {
     },
   });
 
+  const [captchaValue, setCaptchaValue] = useState(null);
+
   const onSubmit = async (data) => {
+    if (!captchaValue) {
+      alert("Proszę wypełnić CAPTCHA");
+      return;
+    }
+
     try {
       const response = await fetch('http://localhost:5000/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ ...data, captcha: captchaValue }),
       });
 
       const result = await response.json();
@@ -44,14 +52,12 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className="relative bg-cover bg-center z-0 min-h-screen pb-32"
+    <div className="relative bg-cover bg-center z-0 min-h-screen pb-32"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(/bg2.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-      }}
-    >
+      }}>
       <Helmet>
         <title>Kontakt</title>
       </Helmet>
@@ -69,6 +75,7 @@ const Contact = () => {
             </div>
             <div>
               <form onSubmit={handleSubmit(onSubmit)}>
+                {/* Twoje pola formularza */}
                 <Controller
                   name="name"
                   control={control}
@@ -83,6 +90,8 @@ const Contact = () => {
                     />
                   )}
                 />
+                {/* Inne pola formularza */}
+                
                 <Controller
                   name="surname"
                   control={control}
@@ -131,6 +140,12 @@ const Contact = () => {
                     />
                   )}
                 />
+                
+                <ReCAPTCHA
+                  sitekey="TWOJ_SITE_KEY" // Twój klucz site key z Google reCAPTCHA
+                  onChange={(value) => setCaptchaValue(value)}
+                />
+
                 <button
                   type="submit"
                   className="bg-blue-500 text-white py-2 px-4 rounded mt-4 w-full hover:bg-blue-700"

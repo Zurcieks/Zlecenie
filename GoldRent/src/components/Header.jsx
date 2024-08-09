@@ -10,7 +10,7 @@ const Header = () => {
           <img
             src="/logo.png"
             alt="Logo"
-            className="w-24 h-auto object-contain"
+            className="w-48 h-auto object-contain"
           />
         </a>
         <ul className="hidden xl:flex items-center gap-12 font-semibold text-base">

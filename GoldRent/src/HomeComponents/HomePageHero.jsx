@@ -18,7 +18,7 @@ const HomePageHero = () => {
         O nas
       </h1>
       <p className="text-md p-1 md:text-xl mt-3 md:mb-8 text-center  max-w-2xl z-20 text-white">
-        GoldRent to lider w zarządzaniu nieruchomościami, oferujący kompleksową
+        GoldRealEstate to lider w zarządzaniu nieruchomościami, oferujący kompleksową
         obsługę właścicieli i najemców. Naszą misją jest dostarczanie najwyższej
         jakości usług, dostosowanych do indywidualnych potrzeb klientów i
         maksymalizowanie zysków z inwestycji. Działamy z pasją i

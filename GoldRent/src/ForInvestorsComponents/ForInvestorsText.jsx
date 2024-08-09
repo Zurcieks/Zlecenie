@@ -12,14 +12,14 @@ const ForInvestorsText = () => {
           Korzyści dla inwestorów
         </h2>
         <p className="mt-4 text-lg text-gray-500">
-          GoldRent oferuje kompleksowe usługi dla inwestorów w branży
+        GoldRealEstate oferuje kompleksowe usługi dla inwestorów w branży
           nieruchomości, obejmujące cały proces inwestycyjny: od wyszukiwania
           okazji inwestycyjnych, poprzez zarządzanie nieruchomościami, aż po
           wynajem lub dalszą sprzedaż. Naszym celem jest zapewnienie inwestorom
           maksymalnych zysków przy minimalnym zaangażowaniu z ich strony.
         </p>
         <p className="mt-4 text-lg text-gray-500">
-          <strong className="text-black">GoldRent</strong> to partner, na
+          <strong className="text-black">GoldRealEstate</strong> to partner, na
           którego możesz liczyć na każdym etapie inwestycji w nieruchomości.
           Dzięki naszemu doświadczeniu, profesjonalizmowi i indywidualnemu
           podejściu, pomagamy inwestorom osiągać ich cele finansowe i

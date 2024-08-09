@@ -15,7 +15,7 @@ const OwnerServices = () => {
           Usługi dla właścicieli
         </h2>
         <p className="font-semibold mt-4 text-lg text-gray-500">
-          GoldRent oferuje deweloperom kompleksowe usługi zarządzania
+        GoldRealEstate oferuje deweloperom kompleksowe usługi zarządzania
           nieruchomościami, które mogą zostać włączone do oferty sprzedażowej
           dla kupujących mieszkania i lokale komercyjne. Nasze rozwiązania
           obejmują zarządzanie najmem długoterminowym, krótkoterminowym, wynajem
@@ -77,7 +77,7 @@ const OwnerServices = () => {
           </ForInvestorsTile>
         </div>
         <p className="mt-6  text-lg text-gray-500">
-          <strong className="text-black">GoldRent</strong> to zaufany partner
+          <strong className="text-black">GoldRealEstate</strong> to zaufany partner
           dla deweloperów, który pomaga zwiększyć atrakcyjność oferty
           sprzedażowej i zapewnia pełne wsparcie dla nowych właścicieli mieszkań
           i lokali komercyjnych. Dzięki naszym usługom, deweloperzy mogą
